@@ -11,6 +11,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    opacity: .8;
+    background-image: url(./edificios.jpg);
+    background-position-y: bottom;
+    padding: 2rem;
+    height: 50vh;
 }
 
 .name {
@@ -20,32 +25,47 @@ body {
 .stack {
     display: inline;
     font-size: 5rem;
+    background-color: white;
+    opacity: .7;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .logotipo {
-    color: white;
+    color: black;
 }
 
 .foto {
     display: inline;
 }
 
+.contenedor-foto {
+    background-color: black;
+    opacity: .7;
+}
+
 .slogan {
     font-family: 'Barlow', sans-serif;
     letter-spacing: 1.2px;
-    color: white;
-    width: 60%;
-    margin: 6rem auto;
+    /* width: 60%; */
+    color: rgb(202, 200, 200);
+    margin: auto;
 }
 
 h2 {
-    font-size: 20rem;
-    text-align: center;
+    font-size: 12rem !important;
+    /* text-align: center; */
+    color: rgb(202, 200, 200);
     margin-bottom: 3.5rem !important;
+    align-self: center;
+    margin-top: 5rem !important;
+    margin-left: 5rem;
 }
 
 p {
     font-size: 1.2rem;
+    padding: 5rem;
+    padding-top: 0;
 }
 
 .pie {
@@ -54,6 +74,7 @@ p {
     right: 0;
     padding: 1.2rem;
     color: white;
+    margin-top: 25rem;
 }
 
 h6 {
