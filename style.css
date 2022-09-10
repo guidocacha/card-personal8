@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 html {
     min-height: 100%;
     position: relative;
@@ -11,7 +12,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    opacity: .8;
+    /* opacity: .8; */
     background-image: url(./edificios.jpg);
     background-position-y: bottom;
     padding: 2rem;
@@ -65,14 +66,26 @@ body {
     color: black;
 }
 
+.contact {
+    background-color: black;
+}
+
+.titulo-contact {
+    color: rgb(202, 200, 200)
+}
+
 .imagen-section {
     display: inline;
     width: 35%;
+    height: 100%;
     overflow: hidden;
-    margin: 5rem 2rem;
     border-radius: 1rem;
     opacity: .7;
-    align-self: flex-end;
+    align-self: center;
+}
+
+.imagen-section:hover {
+    opacity: 1;
 }
 
 .titulo-parrafo {
@@ -91,16 +104,23 @@ h2 {
 
 p {
     font-size: 1.2rem;
-    padding: 5rem;
+    padding: 2rem;
     padding-top: 0;
+}
+
+p {
+    margin-bottom: 2rem !important;
 }
 
 .pie {
     position: absolute;
     margin-top: 3rem;
-    right: 0;
+    width: 100%;
+    text-align: right;
     padding: 1.2rem;
-    color: white;
+    color: black;
+    background-color: rgb(202, 200, 200);
+    ;
 }
 
 h6 {
