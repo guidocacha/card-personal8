@@ -27,8 +27,9 @@ body {
     font-size: 5rem;
     background-color: white;
     opacity: .7;
-    padding: 1rem;
+    padding: 0 1rem;
     border-radius: 1rem;
+    box-shadow: .02em .02em .02em .02em grey;
 }
 
 .logotipo {
@@ -40,16 +41,42 @@ body {
 }
 
 .contenedor-foto {
-    background-color: black;
+    background-color: white;
     opacity: .7;
+    /* border-radius: 1rem;  */
+    padding: .7rem;
+    box-shadow: .03em .03em .03em .03em grey;
 }
 
 .slogan {
     font-family: 'Barlow', sans-serif;
     letter-spacing: 1.2px;
-    /* width: 60%; */
     color: rgb(202, 200, 200);
     margin: auto;
+    display: flex;
+}
+
+.about {
+    background-color: rgb(202, 200, 200);
+    color: black;
+}
+
+.titulo-about {
+    color: black;
+}
+
+.imagen-section {
+    display: inline;
+    width: 35%;
+    overflow: hidden;
+    margin: 5rem 2rem;
+    border-radius: 1rem;
+    opacity: .7;
+    align-self: flex-end;
+}
+
+.titulo-parrafo {
+    width: 60%;
 }
 
 h2 {
@@ -70,11 +97,10 @@ p {
 
 .pie {
     position: absolute;
-    bottom: 0;
+    margin-top: 3rem;
     right: 0;
     padding: 1.2rem;
     color: white;
-    margin-top: 25rem;
 }
 
 h6 {
