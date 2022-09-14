@@ -25,7 +25,8 @@
 </head>
 
 <body>
-    <header>
+    <header class="navdebootstrap">
+        <!-- un nav de bootstrap -->
         <nav class="navbar menu-nav navbar-expand-lg bg-black">
             <div class="container-fluid ">
                 <a class="navbar-brand m-0" href="#">
@@ -48,7 +49,6 @@
                         </div>
                     </div>
             </div>
-            <!-- un nav de bootstrap -->
         </nav>
     </header>
 
@@ -87,25 +87,28 @@
         </section>
 
         <section class="slogan about">
+            <img src="./img/programador.png" alt="" class="imagen-section img-about">
             <div class="titulo-parrafo">
                 <h2 class="titulo-about">About.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam est ipsum iure quibusdam doloribus neque hic tenetur veniam explicabo magnam corporis repellat saepe nam nihil provident suscipit in, aliquam adipisci. Lorem, ipsum dolor sit
                     amet consectetur adipisicing elit. Eligendi voluptas obcaecati veniam voluptatum soluta sit nam ut ducimus possimus, expedita in facere harum reprehenderit labore dolorum delectus doloribus ab aut? Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Excepturi provident qui consectetur, exercitationem saepe cum vitae consequatur distinctio asperiores aspernatur optio est! Saepe architecto consequuntur dolores. Cumque corporis quo earum.
+                    adipisicing . Distinctio asperiores aspernatur optio est! Saepe architecto consequuntur dolores. Cumque corporis quo earum.
                 </p>
             </div>
-            <img src="./img/programador.png" alt="" class="imagen-section">
+
         </section>
 
         <section class="slogan contact">
             <div class="titulo-parrafo">
                 <h2 class="titulo-contact">Contact.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam est ipsum iure quibusdam doloribus neque hic tenetur veniam explicabo magnam corporis repellat saepe nam nihil provident suscipit in, aliquam adipisci. Lorem, ipsum dolor sit
-                    amet consectetur adipisicing elit. Eligendi voluptas obcaecati veniam voluptatum soluta sit nam ut ducimus possimus, expedita in facere harum reprehenderit labore dolorum delectus doloribus ab aut? Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Excepturi provident qui consectetur, exercitationem saepe cum vitae consequatur distinctio asperiores aspernatur optio est! Saepe architecto consequuntur dolores. Cumque corporis quo earum.
-                </p>
+                <p>No te quedes con ninguna duda ¡Coordinemos una reunión! Dejame tu consulta.</p>
             </div>
-            <img src="./img/cafe.jpg" alt="" class="imagen-section">
+            <form action="submit" class="form-contacto" method="post">
+                <input class="form-input name" type="text" placeholder="Nombre">
+                <input class="form-input mail" type="mail" placeholder="E-mail">
+                <input class="form-input msg" type="textarea" placeholder="Escriba aquí su mensaje...">
+                <input class="form-submit button" type="submit" value="Enviar">
+            </form>
         </section>
     </main>
 

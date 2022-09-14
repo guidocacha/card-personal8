@@ -5,18 +5,17 @@ html {
 }
 
 body {
-    background-color: black !important;
+    background-image: url(./img/edificios.jpg);
+    background-position-y: bottom;
+    background-attachment: fixed;
 }
 
 .cardo {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* opacity: .8; */
-    background-image: url(./edificios.jpg);
-    background-position-y: bottom;
     padding: 2rem;
-    height: 50vh;
+    height: 100vh;
 }
 
 .name {
@@ -33,6 +32,12 @@ body {
     box-shadow: .02em .02em .02em .02em grey;
 }
 
+.navdebootstrap {
+    opacity: .7;
+    width: 100%;
+    position: fixed;
+}
+
 .logotipo {
     color: black;
 }
@@ -44,7 +49,6 @@ body {
 .contenedor-foto {
     background-color: white;
     opacity: .7;
-    /* border-radius: 1rem;  */
     padding: .7rem;
     box-shadow: .03em .03em .03em .03em grey;
 }
@@ -52,6 +56,7 @@ body {
 .slogan {
     font-family: 'Barlow', sans-serif;
     letter-spacing: 1.2px;
+    background-color: black;
     color: rgb(202, 200, 200);
     margin: auto;
     display: flex;
@@ -68,6 +73,7 @@ body {
 
 .contact {
     background-color: black;
+    padding-bottom: 5rem;
 }
 
 .titulo-contact {
@@ -80,8 +86,12 @@ body {
     height: 100%;
     overflow: hidden;
     border-radius: 1rem;
-    opacity: .7;
+    opacity: .9;
     align-self: center;
+}
+
+.img-about {
+    margin-left: 5rem;
 }
 
 .imagen-section:hover {
@@ -94,7 +104,6 @@ body {
 
 h2 {
     font-size: 12rem !important;
-    /* text-align: center; */
     color: rgb(202, 200, 200);
     margin-bottom: 3.5rem !important;
     align-self: center;
@@ -114,7 +123,6 @@ p {
 
 .pie {
     position: absolute;
-    margin-top: 3rem;
     width: 100%;
     text-align: right;
     padding: 1.2rem;
@@ -130,6 +138,42 @@ h6 {
 
 .links {
     justify-content: end;
+}
+
+
+/* formulario de contacto */
+
+.form-contacto {
+    background-color: transparent;
+    align-self: center;
+    margin: auto;
+    width: 350px;
+    padding-top: 5rem;
+    font-size: large;
+}
+
+.form-input {
+    display: block;
+    margin-bottom: 4rem;
+    border: none;
+    border-bottom: 1px solid rgb(202, 200, 200);
+    background-color: transparent;
+    width: 100%;
+    color: rgb(202, 200, 200);
+}
+
+.form-submit {
+    background-color: transparent;
+    border: 1px solid rgb(202, 200, 200);
+    color: rgb(202, 200, 200);
+    padding: .7rem;
+    border-radius: 1rem;
+    width: 6rem;
+}
+
+.form-submit:hover {
+    background-color: rgb(202, 200, 200);
+    color: black;
 }
 
 
