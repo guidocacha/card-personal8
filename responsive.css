@@ -1,7 +1,18 @@
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 500px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
     .cardo {
         flex-direction: column;
         padding: 0%;
+        width: 100vw;
+    }
+    .contenedor-foto {
+        width: 70%;
+    }
+    .foto {
+        width: 100%;
     }
     .stack {
         display: flex;
@@ -18,7 +29,7 @@
         width: 100%;
     }
     h2 {
-        font-size: 6rem !important;
+        font-size: 5rem !important;
         margin: 5rem auto 3rem auto !important;
         width: fit-content;
     }
@@ -38,7 +49,7 @@
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 992px) {
+@media only screen and (min-width: 500px) and (max-width: 992px) {
     .cardo {
         flex-direction: column;
         padding: 0%;
@@ -91,6 +102,9 @@
     }
     .slogan {
         width: 100%;
+    }
+    .contenedor-foto {
+        margin-top: 3rem;
     }
 }
 

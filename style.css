@@ -44,6 +44,7 @@ body {
     opacity: .7;
     width: 100%;
     position: fixed;
+    z-index: 99999;
 }
 
 .logotipo {
@@ -59,6 +60,7 @@ body {
     opacity: .7;
     padding: .7rem;
     box-shadow: .03em .03em .03em .03em grey;
+    text-align: center;
 }
 
 .slogan {
