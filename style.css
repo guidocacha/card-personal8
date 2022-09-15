@@ -1,13 +1,21 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 html {
     min-height: 100%;
-    position: relative;
+    /* position: absolute; */
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
 }
 
 body {
     background-image: url(./img/edificios.jpg);
     background-position-y: bottom;
+    background-position-x: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cardo {
@@ -174,36 +182,4 @@ h6 {
 .form-submit:hover {
     background-color: rgb(202, 200, 200);
     color: black;
-}
-
-
-/* media queries */
-
-@media only screen and (max-width: 400px) {
-    .foto {
-        display: none;
-    }
-    .cardo {
-        display: block;
-        margin: 0%;
-        padding: .3rem;
-        width: 100%;
-        border-radius: 0%;
-        box-shadow: none;
-        display: flex;
-    }
-    .nomydesc {
-        padding: .3rem;
-        text-align: left;
-    }
-    .nombre {
-        padding: 0%;
-    }
-    .tonbo {
-        display: block !important;
-        margin: 2rem auto;
-    }
-    .description {
-        padding: 3rem .3rem;
-    }
 }

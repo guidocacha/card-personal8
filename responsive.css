@@ -1,0 +1,104 @@
+@media only screen and (max-width: 576px) {
+    .cardo {
+        flex-direction: column;
+        padding: 0%;
+    }
+    .stack {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 3rem;
+        justify-content: space-around;
+        width: 100%;
+        border-radius: 0%;
+    }
+    .slogan {
+        flex-direction: column;
+    }
+    .titulo-parrafo {
+        width: 100%;
+    }
+    h2 {
+        font-size: 6rem !important;
+        margin: 5rem auto 3rem auto !important;
+        width: fit-content;
+    }
+    .imagen-section {
+        width: 100%;
+        border-radius: 0%;
+        align-self: center;
+    }
+    .img-about {
+        margin: 0;
+    }
+    .about {
+        flex-direction: column-reverse;
+    }
+    .form-contacto {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .cardo {
+        flex-direction: column;
+        padding: 0%;
+    }
+    .stack {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 3rem;
+        justify-content: space-around;
+        width: 100%;
+        border-radius: 0%;
+    }
+    h2 {
+        font-size: 7rem !important;
+        margin: 5rem auto 3rem auto !important;
+        width: fit-content;
+    }
+    .titulo-parrafo {
+        width: 100%;
+    }
+    .slogan {
+        flex-direction: column;
+    }
+    .imagen-section {
+        width: 100%;
+        border-radius: 0%;
+        align-self: center;
+    }
+    .img-about {
+        margin: 0;
+    }
+    .about {
+        flex-direction: column-reverse;
+    }
+    .form-contacto {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .cardo {
+        flex-direction: column;
+        padding: 0%;
+    }
+    h2 {
+        font-size: 8rem !important;
+    }
+    .imagen-section {
+        align-self: center;
+    }
+    .slogan {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    h2 {
+        font-size: 8rem !important;
+    }
+    .stack {
+        font-size: 4rem;
+    }
+}
